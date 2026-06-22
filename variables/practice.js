@@ -27,3 +27,10 @@ console.log('The value of levelUp:', levelUp);
 console.log('The value of powerLevel:', powerLevel); 
 console.log('The value of multiplyMe:', multiplyMe); 
 console.log('The value of quarterMe:', quarterMe);
+
+let favoritePokemon = 'Cubone'
+console.log('My favorite Pokemon:' + favoritePokemon) 
+
+let myName = 'Morgan'
+let myCity = 'Tokyo'
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
