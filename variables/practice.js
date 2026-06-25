@@ -34,3 +34,22 @@ console.log('My favorite Pokemon:' + favoritePokemon);
 let name = 'Morgan';
 let myCity = 'Tokyo';
 console.log(`My name is ${name}. My favorite city is ${myCity}.`);
+
+// new practice session 
+
+// Assigns 293 to kelvin
+const kelvin = 40;
+// Subtracts 273 from Kelvin to give us Celsius
+const celsius = kelvin - 273;
+// finds the value of farenheit and assigns the value
+let farenheit = celsius * (9/5) + 32;
+// round down farenheit variable
+farenheit = Math.floor(farenheit);
+console.log(`The temperature is ${farenheit} degrees Farenheit.`)
+// Assigns newton its value
+let newton = celsius * (33/100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`)
+
+
+
