@@ -51,5 +51,30 @@ let newton = celsius * (33/100);
 newton = Math.floor(newton);
 console.log(`The temperature is ${newton} degrees Newton.`)
 
+// dog years project
 
+// assisgns my age to variable
+const myAge = 33;
+// Assigns earlyyears a value of 2
+let earlyYears = 2;
+earlyYears *= 10.5;
+let laterYears = myAge - 2;
+laterYears *= 4;
+
+console.log(earlyYears);
+console.log(laterYears);
+
+let myAgeInDogYears = earlyYears + laterYears;
+
+let myName = "Morgan".toLowerCase();
+
+console.log(
+  "My name is " +
+    myName +
+    ". I am " +
+    myAge +
+    " years old in human years, which is " +
+    myAgeInDogYears +
+    " years old in dog years."
+);
 
